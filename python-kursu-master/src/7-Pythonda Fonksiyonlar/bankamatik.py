@@ -2,7 +2,7 @@
 
 TolgaHesap = {
     'ad': 'Tolga ARSLAN',
-    'hesapNo': '13245678',
+    'hesapNo': '87654321',
     'bakiye': 3000,
     'ekHesap': 2000
 }
