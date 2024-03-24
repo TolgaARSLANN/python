@@ -45,6 +45,6 @@ def bakiyeSorgula(hesap):
 
 paraCek(TolgaHesap, 10000)
 
-print('*************')
+print('**************')
 
 paraCek(CemreHesap, 3000)
