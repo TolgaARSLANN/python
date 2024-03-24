@@ -9,7 +9,7 @@ TolgaHesap = {
 
 CemreHesap = {
     'ad': 'Elif Cemre ARSLAN',
-    'hesapNo': '12345679',
+    'hesapNo': '12345678',
     'bakiye': 2000,
     'ekHesap': 1000
 }
@@ -45,6 +45,6 @@ def bakiyeSorgula(hesap):
 
 paraCek(TolgaHesap, 10000)
 
-print('**************')
+print('*************')
 
 paraCek(CemreHesap, 3000)
