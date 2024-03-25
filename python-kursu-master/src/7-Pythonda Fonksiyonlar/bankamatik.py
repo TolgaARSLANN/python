@@ -25,9 +25,9 @@ def paraCek(hesap, miktar):
         toplam = hesap['bakiye'] + hesap['ekHesap']
 
         if (toplam >= miktar):
-            ekHesapKullanimi = input('ek hesap kullanılsın mı (e/h)')
+            ekHesapKullanimi = input('Ek hesap kullanılsın mı? (E/H)')
 
-            if ekHesapKullanimi == 'e':
+            if ekHesapKullanimi == 'E':
                 ekhesapKullanilacakMiktar = miktar - hesap['bakiye']
                 hesap['bakiye'] = 0
                 hesap['ekHesap'] -= ekhesapKullanilacakMiktar
